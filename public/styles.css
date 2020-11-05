@@ -1,0 +1,71 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    color: #297463;
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+    margin: 0;
+}
+
+#chat-body {
+    width: 400px;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 0 20px 20px 20px;
+}
+
+#message-box {
+    height: 300px;
+    margin: 20px 0;
+    overflow: auto;
+}
+
+#conversation p {
+    color: #000000;
+    font-weight: 300;
+}
+
+#conversation p span {
+    font-weight: 400;
+    color: #297463;
+}
+
+#typing small {
+    color: #525252;
+    font-weight: 300;
+    font-style: italic;
+}
+
+input {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+    padding: 2px 5px;
+}
+
+input:focus {
+    outline: 2px solid #297463;
+}
+
+#message {
+    width: 88%;
+}
+
+button {
+    background: transparent;
+    color: #297463;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
