@@ -1,4 +1,4 @@
-const socket = io.connect(`https://chat-room-socketio.herokuapp.com/:${process.env.PORT}`);
+const socket = io.connect('https://chat-room-socketio.herokuapp.com/:' + process.env.PORT ? process.env.PORT : '8080');
 
 const controls = {
     message: document.getElementById('message'),
