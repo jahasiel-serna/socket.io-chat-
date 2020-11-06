@@ -2,8 +2,9 @@ const express = require('express');
 const socket = require('socket.io');
 
 const app = express();
-const server = app.listen(process.env.PORT || 8080, function(){
-    console.log('server listening at', process.env.PORT ? process.env.PORT : '8080');
+const port = process.env.PORT || 5000;
+const server = app.listen(port, function(){
+    console.log('server listening at', port);
 });
 
 app.use(express.static('public'));
